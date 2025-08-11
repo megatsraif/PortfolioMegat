@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Megat Syakir Raif</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mediqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><b>Megat Syakir Raif</b></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Megat Syakir Raif</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/images/MegatProfPic.jpg" alt="Megat Syakir Raif profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, My name is</p>
+        <h1 class="title">Megat Syakir Raif</h1>
+        <p class="section__text__p2">Computer Science Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='./#contact'">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/icons/linkedinIcon.png"
+            alt="LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/megatsraif'"
+          />
+          <img
+            src="./assets/icons/gmailicon.png"
+            alt="Email"
+            class="icon"
+            onclick="location.href='mailto:megatsyakir.raif@gmail.com'"
+          />
+          <img
+            src="./assets/icons/githubicon.png"
+            alt="GitHub profile"
+            class="icon"
+            onclick="location.href='https://github.com/megatsraif'"
+          />
+        </div>
+      </div>
+    </section>
+    
+    <hr />
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>Location</h3>
+              <p>
+                <b>Taman Sering Ukay</b><br />68000, Ampang<br />Selangor, Malaysia
+              </p>
+            </div>
+            <div class="details-container">
+              <h3>Contact</h3>
+              <p>
+                <b>Phone:</b> 012 - 756 6402<br />
+                <b>Email:</b> megatsyakir.raif@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Motivated and disciplined Computer Science student with a strong interest in developing practical
+              skills through real-world experience. Comfortable working independently or in teams, and always open
+              to learning from more experienced peers and mentors. Committed to continuous improvement, with a focus
+              on writing clean, efficient code and understanding the bigger picture behind technical solutions.
+              Seeking an opportunity to grow in a collaborative environment while contributing wherever possible.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <hr />
+    
+    <section id="education">
+      <p class="section__text__p1">My Educational</p>
+      <h1 class="title">Background</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/icons/uitmlogo.png" alt="Education Icon" class="icon" />
+            <h2 class="skill-sub-title">Current Education</h2>
+            <div class="education-item">
+              <h3>Diploma in Computer Science</h3>
+              <p><strong>UiTM Jasin, Melaka</strong></p>
+              <p>2023 - Present</p>
+              <p class="cgpa">Cumulative Grade Point Average (CGPA): <strong>3.69/4.00</strong></p>
+              
+              <div class="subjects-section">
+                <h4>Key Subjects:</h4>
+                <ul class="subjects-list">
+                  <li>Introduction to Algorithm Design and Development</li>
+                  <li>Fundamentals of Algorithms and Computer Problem Solving</li>
+                  <li>Interactive Multimedia</li>
+                  <li>Computer Organization</li>
+                  <li>Object Oriented Programming</li>
+                  <li>Fundamentals of Operating Systems</li>
+                  <li>Fundamentals of Data Structures</li>
+                  <li>Introduction to Database Management</li>
+                  <li>Introduction to Web and Mobile Application</li>
+                  <li>Information System Development</li>
+                  <li>Introduction to Data Communication and Networking</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="details-container">
+            <img src="./assets/icons/smktswlogo.gif" alt="School Icon" class="icon" />
+            <h2 class="skill-sub-title">Previous Education</h2>
+            <div class="education-item">
+              <h3>Sijil Pelajaran Malaysia (SPM)</h3>
+              <p><strong>SMK Taman Setiawangsa, Kuala Lumpur</strong></p>
+              <p>2018 - 2023</p>
+              <p class="results">Results: <strong>5A 4B</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <hr />
+    
+    <section id="experience">
+      <p class="section__text__p1">My Leadership</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-container">
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Vice Program Director</h3>
+            <span class="period">2025</span>
+          </div>
+          <p class="organization">Donation to Primary School Students</p>
+          <ul class="achievements">
+            <li>Led a team to organize and execute a donation drive benefiting underserved primary school students</li>
+            <li>Applied prior leadership and event management experience to ensure smooth project execution</li>
+            <li>Successfully raised donations through targeted outreach and collaboration with donors</li>
+          </ul>
+        </div>
+        
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Sports And Recreation Exco</h3>
+            <span class="period">2023 - 2024</span>
+          </div>
+          <p class="organization">Sekretariat Majlis Perwakilan Pelajar</p>
+          <ul class="achievements">
+            <li>Part of the university's largest student body, managing sports and recreation events</li>
+            <li>Served as event protocol lead and regular emcee for major programs</li>
+            <li>Gained experience working under high-pressure environments and tight deadlines</li>
+            <li>Developed strong teamwork, time management, and communication skills</li>
+          </ul>
+        </div>
+        
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Vice Treasurer</h3>
+            <span class="period">2024</span>
+          </div>
+          <p class="organization">Campus Election Committee, UiTM Melaka Branch</p>
+          <ul class="achievements">
+            <li>Assisted in budgeting, tracking expenses, and managing finances for campus election events</li>
+            <li>Collaborated with UiTM staff to ensure compliance with financial guidelines</li>
+            <li>Acquired practical knowledge in financial planning and reporting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <hr />
+    
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="project-header">
+              <img src="./assets/icons/web-project.png" alt="Web Project" class="project-icon" />
+              <h2 class="skill-sub-title project-title">Mobile Device Repair Tracking System</h2>
+            </div>
+            <div class="project-description">
+              <p>A comprehensive web-based system for tracking mobile device repairs, managing customer information, and monitoring repair progress.</p>
+            </div>
+            <div class="tech-stack">
+              <h4>Languages and Software Used:</h4>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Apache (XAMPP)</span>
+              </div>
+            </div>
+            <div class="project-features">
+              <h4>Key Features:</h4>
+              <ul>
+                <li>Customer registration and management</li>
+                <li>Device repair status tracking</li>
+                <li>Inventory management system</li>
+                <li>Repair history and reporting</li>
+              </ul>
+            </div>
+            <div class="btn-container" style="margin-top: 1rem;">
+              <button
+                class="btn btn-color-1"
+                onclick="window.open('https://github.com/megatsraif/Mobile-Device-Repair-System', '_blank')"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="project-header">
+              <img src="./assets/icons/mobile-project.png" alt="Mobile Project" class="project-icon" />
+              <h2 class="skill-sub-title project-title">Mobile Budgeting & Expense Tracker</h2>
+            </div>
+            <div class="project-description">
+              <p>An intuitive mobile application designed to help users manage their finances, track expenses, and maintain budgets effectively.</p>
+            </div>
+            <div class="tech-stack">
+              <h4>Software Used:</h4>
+              <div class="tech-tags">
+                <span class="tech-tag">MIT App Inventor</span>
+                <span class="tech-tag">Mobile Development</span>
+                <span class="tech-tag">UI/UX Design</span>
+              </div>
+            </div>
+            <div class="project-features">
+              <h4>Key Features:</h4>
+              <ul>
+                <li>Expense categorization and tracking</li>
+                <li>Budget planning and monitoring</li>
+                <li>Visual spending analytics</li>
+                <li>Monthly financial reports</li>
+                <li>User-friendly mobile interface</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <hr />
+    
+    <section id="skills">
+      <p class="section__text__p1">My Technical</p>
+      <h1 class="title">Skills</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skill-sub-title">💻 Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/icons/cppicon.png" alt="C++ icon" class="icon" />
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/icons/javaicon.png" alt="Java icon" class="icon" />
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/icons/pythonicon.png" alt="Python icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/icons/javascripticon.png" alt="JavaScript icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skill-sub-title">🌐 Web Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/icons/HTMLicon.png" alt="HTML icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/icons/cssicon.png" alt="CSS icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/icons/javascripticon.png" alt="JavaScript icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skill-sub-title">🗄 Databases</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/icons/mysqlicon.png" alt="MySQL icon" class="icon" />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skill-sub-title">🛠 Tools & Platforms</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/icons/vscodeicon.png" alt="VSCode icon" class="icon" />
+                <div>
+                  <h3>VS Code</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/icons/virtualboxicon.png" alt="VirtualBox icon" class="icon" />
+                <div>
+                  <h3>Oracle VirtualBox</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/icons/xamppicon.png" alt="XAMPP icon" class="icon" />
+                <div>
+                  <h3>XAMPP</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/icons/ciscoicon.png" alt="Cisco icon" class="icon" />
+                <div>
+                  <h3>Cisco Packet Tracer</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="additional-skills">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Additional Information</h2>
+            <div class="skill-info">
+              <div class="skill-item">
+                <div style="text-align: center;">
+                  <h3>Languages</h3>
+                  <p>English (Fluent) & Malay (Fluent)</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div style="text-align: center;">
+                  <h3>Strengths</h3>
+                  <p>Leadership, Team Management, Event Organization, Financial Planning, Public Speaking</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <hr />
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/icons/gmailicon.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="mailto:megatsyakir.raif@gmail.com">megatsyakir.raif@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/icons/phoneicon.png"
+            alt="Phone icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="tel:+60127566402">012 - 756 6402</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/icons/linkedinIcon.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/megatsraif" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      
+      <div class="resume-section">
+        <h2 class="resume-title">Resume</h2>
+        <div class="resume-container">
+          <p>View or Download My Resume.</p>
+          <button
+            class="btn btn-color-1 resume-btn"
+            onclick="window.open('./assets/documents/Resume MEGAT SYAKIR RAIF.pdf')"
+          >
+            View & Download Resume
+          </button>
+        </div>
+      </div>
+      
+      <div class="reference-section">
+        <h2 class="reference-title">Reference</h2>
+        <div class="reference-container">
+          <h3>Dr. Nurbaity Sabri</h3>
+          <p>CDCS110 Industrial Training Coordinator</p>
+          <p>Faculty of Computer Science and Mathematics, UiTM Jasin, Melaka</p>
+          <div class="reference-contact">
+            <p>📞 06-2645638 / 012-5371085</p>
+            <p>✉️ nurbaity_sabri@uitm.edu.my</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Megat Syakir Raif. All Rights Reserved.</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
